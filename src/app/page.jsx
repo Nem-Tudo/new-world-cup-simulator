@@ -18,7 +18,7 @@ const styles = {
   header: {
     textAlign: 'center',
     color: '#1a5490',
-    marginBottom: '30px',
+    marginBottom: '10px',
     fontSize: '32px',
     fontWeight: 'bold'
   },
@@ -472,6 +472,7 @@ export default function WorldCupSimulator() {
   return (
     <div style={styles.container}>
       <h1 style={styles.header}>⚽ Simulador Copa do Mundo 2026</h1>
+      <span style={{textAlign: "center", "color": "#0772ffff", margin: "0 auto", width: "100%", display: "block", marginBottom: "15px"}}>worldcupsimulator.nemtudo.me</span>
       <div style={{
         display: 'flex',
         gap: '8px',
